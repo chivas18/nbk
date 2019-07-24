@@ -1,0 +1,11 @@
+[Thu, 25 Jul 2019 04:51:54 +0700] [localhost] [::1] [Error(1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)] [FILE: /modules/menu/admin/rows.php] [LINE: 430]
+[Thu, 25 Jul 2019 04:55:13 +0700] [localhost] [::1] [Notice(8): Undefined variable: array_item] [FILE: /modules/menu/admin/rows.php] [LINE: 47]
+[Thu, 25 Jul 2019 04:55:13 +0700] [localhost] [::1] [Warning(2): Invalid argument supplied for foreach()] [FILE: /modules/menu/admin/rows.php] [LINE: 47]
+[Thu, 25 Jul 2019 05:22:22 +0700] [localhost] [::1] [Error(1): Uncaught Error: Cannot use object of type NukeViet\Http\Curl as array in C:\xampp\htdocs\nbkschool\includes\core\admin_functions.php:264
+Stack trace:
+#0 C:\xampp\htdocs\nbkschool\includes\cronjobs\check_version.php(33): nv_geVersion(86400)
+#1 C:\xampp\htdocs\nbkschool\includes\core\cronjobs.php(76): cron_auto_check_version()
+#2 C:\xampp\htdocs\nbkschool\includes\mainfile.php(377): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\nbkschool\index.php(21): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown] [FILE: /includes/core/admin_functions.php] [LINE: 264]

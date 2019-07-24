@@ -1,0 +1,1 @@
+[Thu, 25 Jul 2019 04:07:44 +0700] [localhost] [::1] [User Notice(1024): SQLSTATE[HY000] [1045] Access denied for user 'admin'@'localhost' (using password: YES)] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 81]

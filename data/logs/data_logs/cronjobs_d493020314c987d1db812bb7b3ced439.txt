@@ -1,0 +1,15 @@
+array (
+  'id' => 8,
+  'start_time' => 1564002970,
+  'inter_val' => 60,
+  'inter_val_type' => 0,
+  'run_file' => 'check_version.php',
+  'run_func' => 'cron_auto_check_version',
+  'params' => '',
+  'del' => 0,
+  'is_sys' => 1,
+  'act' => 1,
+  'last_time' => 1564003196,
+  'last_result' => 1,
+  'vi_cron_name' => 'Kiểm tra phiên bản NukeViet',
+)
